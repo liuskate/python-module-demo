@@ -1,5 +1,6 @@
 ### 多个文件的 logger写入同一个 log文件
-见 main.py  util.module_b.py 中都以 util/log.py 中的 init_log 方法初始化获取以__name__为名称的logger
+* 都以 util/log.py 中的 init_log 方法初始化获取以__name__为名称的logger
+* 详见 main.py  util.module_b.py 
 
 ### 单元测试
 * 所有单元测试用例需要放在根目录下的 test下
